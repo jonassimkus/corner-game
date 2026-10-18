@@ -1,0 +1,12 @@
+[gd_resource type="Theme" format=3 uid="uid://ddedf62jmcetl"]
+
+[ext_resource type="FontFile" uid="uid://c7p5t05ncuq86" path="res://ui/fonts/m5x7.ttf" id="1_ka7oj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ka7oj"]
+bg_color = Color(0.11858138, 0.11858139, 0.11858132, 1)
+corner_detail = 1
+
+[resource]
+default_font = ExtResource("1_ka7oj")
+default_font_size = 16
+/styles/panels = SubResource("StyleBoxFlat_ka7oj")

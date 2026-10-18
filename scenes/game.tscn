@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://bk1ol54xnaycp"]
+
+[ext_resource type="Texture2D" uid="uid://dlicpgseitj8q" path="res://ui/table/table.png" id="1_lnu2h"]
+[ext_resource type="Texture2D" uid="uid://dey3l52b5afe1" path="res://C.png" id="1_uwrxv"]
+[ext_resource type="Theme" uid="uid://ddedf62jmcetl" path="res://ui/default.tres" id="2_yqjtg"]
+
+[node name="game" type="Node" unique_id=595637781]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1570706336]
+modulate = Color(0.68067575, 0.77576315, 0.866682, 1)
+texture_filter = 1
+position = Vector2(210, 150)
+scale = Vector2(2, 2)
+texture = ExtResource("1_lnu2h")
+
+[node name="Button" type="Sprite2D" parent="." unique_id=1664999338]
+modulate = Color(0.41981313, 0.41981313, 0.4198131, 1)
+position = Vector2(82, 282.5)
+scale = Vector2(105, 59)
+texture = ExtResource("1_uwrxv")
+
+[node name="Button2" type="Sprite2D" parent="." unique_id=1736301373]
+modulate = Color(0.41981313, 0.41981313, 0.4198131, 1)
+position = Vector2(338, 282.5)
+scale = Vector2(105, 59)
+texture = ExtResource("1_uwrxv")
+
+[node name="Button3" type="Sprite2D" parent="." unique_id=977326077]
+modulate = Color(0.41981313, 0.41981313, 0.4198131, 1)
+position = Vector2(209, 283)
+scale = Vector2(105, 59)
+texture = ExtResource("1_uwrxv")
+
+[node name="Label" type="Label" parent="." unique_id=986683770]
+offset_left = 30.0
+offset_top = 16.0
+offset_right = 350.0
+offset_bottom = 42.0
+theme = ExtResource("2_yqjtg")
+theme_override_font_sizes/font_size = 32
+text = "Grass lands - zone 1"
+vertical_alignment = 1
+
+[node name="World" type="Node2D" parent="." unique_id=695532329]
+position = Vector2(210, 141)
+
+[node name="Background" type="Sprite2D" parent="World" unique_id=1230477908]
+modulate = Color(0.47367197, 0.61464065, 0.77611035, 1)
+scale = Vector2(359.99994, 190.00002)
+texture = ExtResource("1_uwrxv")
